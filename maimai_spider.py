@@ -164,6 +164,6 @@ def everybody(browser,text,max_condidate=50):
      
 if __name__=='__main__':
     browser=login('https://acc.maimai.cn/login',账号,密码)
-    search_result=everybody(browser,'金融壹账通 '+'张杰',max_condidate=1)
+    search_result=everybody(browser,'公司 '+'姓名',max_condidate=1)
     
       
